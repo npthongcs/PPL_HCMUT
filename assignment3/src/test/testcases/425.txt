@@ -1,0 +1,18 @@
+
+Var: a,b=10,c=1,d[3][3],e[2]={1.0,2.0},g,f=False,u,v;
+Function: main
+Parameter: a,c
+Body:
+    Var: g,f;
+    u =1.2;
+EndBody.
+
+Function: foo
+Parameter: a
+Body:
+EndBody.
+
+Function: foo1
+Body:
+    u = 1;
+EndBody.

@@ -1,0 +1,14 @@
+
+Function: foo
+Parameter: i,j,m,n
+    Body:
+        Do 
+            Var: a,v,e;
+            For (i=0,i<m+n,k) Do
+                write(i);
+            EndFor.
+            a=a[foo(i)-f] +. 2. -. 2.109e-109;
+            check= !(a==b) || (a<=.m+j-f) && (e=/=i);
+        While a<10 EndDo.
+    EndBody.
+        

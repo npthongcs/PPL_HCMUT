@@ -1,0 +1,7 @@
+
+Function: foo
+    Body:
+        Var: a,b,c;
+        a = foo(x+y\g*q) % foo(x-1);
+    EndBody.
+        

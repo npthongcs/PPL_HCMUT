@@ -1,0 +1,11 @@
+
+Var: a,b=9,c[10]={1,2,3};
+Function: foo
+Parameter: i,j,a,b
+    Body:
+        While True Do
+            Var: a,c,d;
+            a= a[foo-a[a[i]+foo(check[a[b[j]]])]];
+        EndWhile.
+    EndBody.
+        

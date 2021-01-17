@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(Return(BinaryOp(+,ArrayCell(Id(e),[IntLiteral(1),IntLiteral(2)]),ArrayCell(Id(b),[IntLiteral(2)])))))

@@ -1,0 +1,9 @@
+
+Function: main
+    Body:
+        ** test simple while**
+          While 1 Do 
+            **Nothing ke ke ke ke ke**
+        EndWhile.
+    EndBody.
+        

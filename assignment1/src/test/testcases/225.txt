@@ -1,0 +1,7 @@
+
+Function: foo
+    Body:
+        Var: a,v,d[10][10];
+        a=a+b+c+s+f+s-1-3-2\4\13*234322;
+    EndBody.
+        

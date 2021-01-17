@@ -1,0 +1,13 @@
+
+Function: foo
+    Body:
+        Do 
+            While a!=b Do
+                a=foo(j);
+                b=arr[a];
+                b=recursive(b-foo[a[b]]);
+            EndWhile.
+        While (a>b) && (b<foo[j]) && True EndDo.
+        Return foo(-b);
+    EndBody.
+        

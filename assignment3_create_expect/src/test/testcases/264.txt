@@ -1,0 +1,13 @@
+
+Function: main
+Body:
+    Var: test;
+    While test Do
+        Var: test;
+        test = test + test;
+        test = main() + main();
+        While test Do
+        EndWhile.
+    EndWhile.
+    Return 1;
+EndBody.

@@ -1,0 +1,11 @@
+
+                    Function: main
+					Parameter: arr[5], size
+					Body:
+						arr = {0,1,2,3,4};
+						While (size > 0) && (arr[size - 1] < 10) Do
+							print(string_of_int(arr[size - 1] + 2*arr[size - 1]));
+							size = size - 1;
+							arr[size - 1] = arr[size - 1] *. 1.5;
+						EndWhile.
+					EndBody.

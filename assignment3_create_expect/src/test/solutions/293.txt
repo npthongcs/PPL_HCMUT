@@ -1,0 +1,1 @@
+str(TypeCannotBeInferred(Assign(Id(y),Id(x))))

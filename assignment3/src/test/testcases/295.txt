@@ -1,0 +1,18 @@
+
+Function: main
+					Body:
+					Var: i, arr[5];
+					For (i = 0, i < 5, 1) Do
+						If foo(i) > 5 Then
+							print(string_of_int(i));
+						Else
+							arr[foo(i)] = i;
+						EndIf.
+					EndFor.
+					EndBody.
+
+					Function: foo
+					Parameter: x
+					Body:
+						x = x \ 5.;
+					EndBody.

@@ -1,0 +1,7 @@
+
+                    Function: main
+					Body:
+					Var: x, y, z, t;
+					x = int_of_string(read());
+					y = 1.2 +. z +. float_to_int(z *. 1.5);
+					EndBody.

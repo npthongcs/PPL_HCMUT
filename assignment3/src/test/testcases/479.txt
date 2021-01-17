@@ -1,0 +1,25 @@
+
+                    Function: main
+					Body:
+					Var: arr[8][8];
+					Var: i;
+					For (i = 0, i < 8, 1) Do
+						Var: j;
+						For (j = 0, j < 8, 1) Do
+							If i == j Then
+								arr[i][j] = i + j;
+							Else
+								arr[i][j] = foo(i, j);
+							EndIf.
+						EndFor.
+					EndFor.
+					EndBody.
+
+					Function: foo
+					Parameter: x, y
+					Body:
+						If x < y Then
+							Return float_to_int(y) *. 15.0;
+						EndIf.
+						Return x;
+					EndBody.

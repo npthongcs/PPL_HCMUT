@@ -1,0 +1,12 @@
+
+Function: main
+					Parameter: arr[5]
+					Body:
+						Var: idx[5] = {0,1,2,3,4};
+						Var: i = 0;
+						For (i = idx[i], i < 5, idx[i + 1]) Do
+							print(string_of_int(i*i*idx[i*i]));
+						EndFor.
+						arr[0] = 1.0;
+						arr[1] = idx[3];
+					EndBody.

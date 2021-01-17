@@ -1,0 +1,10 @@
+
+Function: foo
+    Parameter: i,j,m,n
+    Body:
+        If (foo(i-1)>=foo(i+1)) Then
+            foo(n%i-a[foo(i\4)]);
+        Else Return 1;
+        EndIf. 
+    EndBody.
+        

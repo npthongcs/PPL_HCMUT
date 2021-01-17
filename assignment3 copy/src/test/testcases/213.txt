@@ -1,0 +1,9 @@
+
+Var: a,b=10,c=1,d[3][3],e[2]={1.0,2.0},g="hello",f=False,u,v;
+Function: main
+Parameter: a,c,i,j,k,m,n
+Body:
+    c = 1.2;
+    i = c;
+    n = i + j;
+EndBody.

@@ -1,0 +1,8 @@
+
+Function: foo
+    Body:
+        Var: r = 10., v;
+        a = float_of_int(a);
+        v = (4. \. 3.) *. 3.14 *. r *. r *. r;
+    EndBody.
+        

@@ -1,0 +1,19 @@
+
+Var: a=10,b=1.2,c,d[2]={True,False};
+Function: foo
+Body:
+    Return d;
+EndBody.
+
+Function: main
+Body:
+    Var: test;
+    While test Do
+        Var: d=1;
+        print(string_of_bool(foo()[1]));
+        For (d=1, d>test, d) Do
+            print(string_of_int(d));
+        EndFor.
+    EndWhile.
+    Return;
+EndBody.

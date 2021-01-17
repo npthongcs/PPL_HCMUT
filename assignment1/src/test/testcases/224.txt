@@ -1,0 +1,6 @@
+
+Function: foo
+    Body:
+        a=!(a>1) || ((b-a)>(b+a));
+    EndBody.
+        

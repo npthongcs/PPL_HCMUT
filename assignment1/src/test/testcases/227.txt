@@ -1,0 +1,6 @@
+
+Function: foo
+    Body:
+        a[3+foo(3)]=a%b-9;
+    EndBody.
+        

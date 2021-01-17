@@ -1,0 +1,10 @@
+
+Function: main
+    Parameter: i,j,temp
+    Body:
+        Var: i,j,k,m,n,a[10][10];
+        For (i=1,i<n,10) Do
+            print(i);
+        EndFor.    
+    EndBody.
+        

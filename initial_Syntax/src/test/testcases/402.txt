@@ -1,0 +1,5 @@
+ float foo(){
+            int a,b,c;
+            a = b / 2.0;
+            c = a + c;
+            return a*b*c; 

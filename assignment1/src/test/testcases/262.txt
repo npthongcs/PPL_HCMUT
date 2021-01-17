@@ -1,0 +1,14 @@
+
+Function: foo
+    Body:
+        Do 
+           If foo(g)-foo(j)>0 Then 
+            Var: i,k,m;
+            k=foo(g)*foo(j);
+            i=k%m;
+            m=foo(a[i]);
+           EndIf. 
+        While (a>b) && (b<foo[j]) EndDo.
+        Return foo(-b)-foo(i)-foo(h);
+    EndBody.
+        

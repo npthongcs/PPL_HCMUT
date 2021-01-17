@@ -1,0 +1,1 @@
+hasattr(emp1,"age")    **Returns true if 'age' attribute exists**

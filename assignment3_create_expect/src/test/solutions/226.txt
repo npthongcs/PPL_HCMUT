@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(Assign(Id(u),IntLiteral(1))))

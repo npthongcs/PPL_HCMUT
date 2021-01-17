@@ -1,0 +1,16 @@
+
+Function: foo1
+Body:
+    Return;
+EndBody.
+
+Function: main
+Body:
+    foo(foo1());
+EndBody.
+
+Function: foo
+Parameter: x
+Body:
+    Return;
+EndBody.

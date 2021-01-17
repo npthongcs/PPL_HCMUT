@@ -1,0 +1,9 @@
+
+Function: foo
+    Body:
+        For (i=0,i<10,1) Do
+            a= a[foo-a[a[i]]];
+            Var: a,c,d;
+        EndFor.
+    EndBody.
+        

@@ -1,0 +1,10 @@
+
+Function: main
+    Parameter: i,j,m,n
+    Body:
+        Var: i,j,k,m,n,a[10][10];
+        For (i=0 , i<10, 1) Do
+            n = n+1;
+        EndFor.
+    EndBody.
+        

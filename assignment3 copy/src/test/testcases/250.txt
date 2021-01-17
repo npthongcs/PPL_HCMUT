@@ -1,0 +1,6 @@
+
+Function: main
+Parameter: x
+Body:
+    If 5 Then EndIf. 
+EndBody.       

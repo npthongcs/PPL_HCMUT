@@ -1,0 +1,13 @@
+
+Function: foo
+    Body:
+        Do 
+            Do
+                Do
+                    Do
+                    While True EndDo.
+                While False EndDo.
+            While False EndDo.
+        While False EndDo.        
+    EndBody.
+        

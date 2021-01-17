@@ -1,0 +1,13 @@
+
+Function: main
+					Body:
+					Var: x, y, z;
+					print("Read number n = ");
+					x = read();
+					printLn();
+					y = int_of_string(x);
+					z = y*y + 2*y + 1;
+					print("(n + 1)^2 = ");
+					print(string_of_int(z));
+					printLn("Goodbye");
+					EndBody.

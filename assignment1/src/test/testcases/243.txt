@@ -1,0 +1,16 @@
+
+Function: main
+    Parameter: i,j,m,n,k
+    Body:
+        Var: i,j,k,m,n,a[10][10];
+        For (i=n*m , (i<m) && (i>n) , k*k) Do
+            If n % i == 0 Then  
+                foo(i);
+            Else foo(i+1);
+            EndIf.
+        If i!=0 Then Return i;
+        Else Return 0;
+        EndIf.
+        EndFor.
+    EndBody.
+        

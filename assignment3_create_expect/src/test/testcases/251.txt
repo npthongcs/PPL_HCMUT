@@ -1,0 +1,15 @@
+
+Var: x[5][10], y = False, z = True;
+            Function: foo
+                Parameter: t
+                Body:
+                    t = 1;
+                    t= foo(foo(1.2));
+                EndBody.
+
+            Function: main
+                Parameter: t
+                Body:
+                    t = 1;
+                    t = foo(1);
+                EndBody.

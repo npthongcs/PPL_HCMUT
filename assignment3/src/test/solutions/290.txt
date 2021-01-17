@@ -1,0 +1,1 @@
+Type Mismatch In Expression: BinaryOp(*.,ArrayCell(Id(arr),[BinaryOp(-,Id(size),IntLiteral(1))]),FloatLiteral(1.5))

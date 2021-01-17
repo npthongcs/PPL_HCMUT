@@ -1,0 +1,19 @@
+
+Var: a,b=10,c=1.2,d[3][3],e[2]={1.0,2.0},g,f=False,u,v;
+Function: foo1
+Body:
+    a = 1.2;
+    Return int_of_float(a)>b;
+EndBody.
+
+Function: main
+Parameter: a,c
+Body:
+    a = foo1() && False;
+    a = foo(a) + foo1();
+EndBody.
+
+Function: foo
+Parameter: a
+Body:
+EndBody.

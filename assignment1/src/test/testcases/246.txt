@@ -1,0 +1,16 @@
+
+Function: main
+    Parameter: i,j,temp
+    Body:
+        Var: i,j,k,m,n,a[10][10];
+        For (i=1,i<n,) Do
+            For (j=i+1,j<=n,1) Do
+            If (a[i]>a[j]) Then
+                temp = a[j];
+                a[j]=a[i];
+                a[i]=temp;
+            EndIf.
+        EndFor.
+        EndFor.    
+    EndBody.
+        

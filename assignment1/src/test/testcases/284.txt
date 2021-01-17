@@ -1,0 +1,10 @@
+
+Function: foo
+    Body:
+        foo (2 + x, 4. \. y);
+        goo (foo (2 + x, 4. \. y));
+        func(func()-.goo (foo (2 + x, 4. \. y)) % foo(foo(f-g+.4.),func()-.goo (foo (2 + x, 4. \. y))));
+        recursive(1.2 +. n \. i *. a[b[1][3]],func(func()-.goo (foo (2 + x, 4. \. y)) % foo(foo(f-g+.4.),func()-.goo (foo (2 + x, 4. \. y)))),a[foo(i)-f] +. 2. -. 2.109e-109
+        \.foo(n%i-a[foo(i\4)]));
+    EndBody.
+        

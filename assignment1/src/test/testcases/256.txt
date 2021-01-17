@@ -1,0 +1,14 @@
+
+Function: main
+    Body:
+        While (n>1) Do
+            While (m>1) do
+                While (k<foo(a[n][b])) Do
+                    While (f!= 11-k) Do
+                        ** Nothing **
+        EndWhile.
+        EndWhile.
+        EndWhile.
+        EndWhile.
+    EndBody.
+        

@@ -1,0 +1,9 @@
+
+Function: foo
+    Body:
+        While True Do
+            a= a[foo-a[a[i]]];
+            Var: a,c,d;
+        EndWhile.
+    EndBody.
+        

@@ -1,0 +1,12 @@
+
+Var: a,b,c=10,d[-12.0]={1,2,3};
+Function: foo
+Parameter: i,j,m,n
+    Body:
+        If n>1000 Then m = m*n;
+        ElseIf (n>100) && (n<1000) Then m=m*m-n*2;
+        ElseIf (n>10) && (n<100) Then m=m\n+2;
+        Else m=0;
+        EndIf.
+    EndBody.
+        

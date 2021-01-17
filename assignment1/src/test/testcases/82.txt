@@ -1,0 +1,1 @@
+val or val VariableName : DataType = [Initial Value]

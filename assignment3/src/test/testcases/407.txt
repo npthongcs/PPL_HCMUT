@@ -1,0 +1,11 @@
+
+Var: a,b=10,c=1;
+Function: main
+Parameter: a,b,c,a
+Body:
+EndBody.
+Function: foo
+Parameter: a
+Body:
+    Return;
+EndBody.

@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(For(Id(i),IntLiteral(0),BinaryOp(>,IntLiteral(1),IntLiteral(2)),CallExpr(Id(foo),[]),[],[])))

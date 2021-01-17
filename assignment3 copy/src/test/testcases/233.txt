@@ -1,0 +1,18 @@
+
+Var: a,b=10,c=1.2,d[3][3],e[2]={1.0,2.0},g,f=False,u,v;
+Function: foo1
+Body:
+    Return e;
+EndBody.
+
+Function: main
+Parameter: c
+Body:
+    foo1()[2] = foo1();
+EndBody.
+
+Function: foo
+Parameter: i,j,k
+Body:
+
+EndBody.

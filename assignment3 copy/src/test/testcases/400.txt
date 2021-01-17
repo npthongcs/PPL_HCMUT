@@ -1,0 +1,37 @@
+
+Var: a,b[2][3]={{1,2,3},{4,5,6}},c;
+Function: foo
+Body:
+    Var: e=1.0,f,g;
+    While e>.1.0 Do
+        Var: e,f;
+        e="hello";
+    EndWhile.
+EndBody.    
+                    
+Function: main
+Parameter: d,e,f,g,h,i,j,k
+Body:
+    e = 1 + foo();
+    If a>1 Then
+        Var: e,f;
+        a = 2 + e;
+        Return 1.0;
+        Return foo1(a);
+        j= foo1(a) +. 1.2;
+        If e<a Then
+            Var: e,f;
+            e = 12;
+            f = foo1(foo1(a)) + 2;
+            Return foo();
+        EndIf.
+    e = 1;
+    EndIf.
+    e = 1.2 + foo();
+EndBody.
+                
+Function: foo1
+Parameter: x
+Body:
+EndBody.
+                    

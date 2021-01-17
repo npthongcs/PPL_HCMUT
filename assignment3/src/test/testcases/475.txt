@@ -1,0 +1,18 @@
+
+Function: foo
+Body:
+Var: arr[5];
+Return arr;
+EndBody.
+
+Function: main
+Body:
+Var: arr[5] = {0,0,0,0,0}, i, pi = 3.14;
+For (i = 0, i < 5, 1) Do
+foo()[i] = arr[i];
+EndFor.
+If foo()[0] >. pi Then
+Return pi;
+EndIf.
+Return foo()[0];
+EndBody.

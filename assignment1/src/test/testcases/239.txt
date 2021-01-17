@@ -1,0 +1,14 @@
+
+Var: a,b,c=10,d[3]={1,2,3};
+Function: foo
+Parameter: i,j,m,n
+    Body:
+        i = 0;
+        If n>1
+            n = n-1;
+            i = i+1;
+            m = m+i;
+        Else Return m;   
+        EndIf. 
+    EndBody.
+        

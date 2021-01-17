@@ -1,0 +1,13 @@
+
+Var: a,b=10,c=1,d[3][3],e[2]={1.0,2.0},g,f=False,u,v;
+Function: main
+Parameter: a,c
+Body:
+    Var: g,f;
+    f = foo(False,True,k,b) + 1;
+EndBody.
+
+Function: foo
+Parameter: a,b,c,d
+Body:
+EndBody.

@@ -1,0 +1,13 @@
+
+Function: foo
+Parameter: i
+    Body:
+        Return foo(i-1);
+    EndBody.
+        
+Function: main
+    Body:
+        Var: a,b,c;
+        a = foo(b) - c;
+    EndBody.
+        

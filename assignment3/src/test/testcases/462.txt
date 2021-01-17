@@ -1,0 +1,9 @@
+
+Function: main
+Body:
+Var: x, y, z;
+x = True;
+z = string_of_bool(y);
+z = string_of_bool(!y && x);
+z = string_of_bool();
+EndBody.

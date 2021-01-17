@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(If(CallExpr(Id(foo),[]),[],[CallStmt(Id(print),[StringLiteral(Error VoidType!)])])Else([],[])))

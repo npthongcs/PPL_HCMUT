@@ -1,0 +1,1 @@
+Var: a,b[10],c[10][10],d[10][10][10],f=12.0e-10,g=0,l="hello eveybody",m=0x12AF,n=0O123,q[3]={1,2,3},test=True,check=False;

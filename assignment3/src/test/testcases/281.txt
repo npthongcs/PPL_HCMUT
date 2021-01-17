@@ -1,0 +1,26 @@
+
+                    Function: main
+					Body:
+						Var: x;
+						x = int_of_string(read());
+						If x > 10 Then
+							Var: y = 0;
+							y = foo(x);
+							If y > 10 Then
+								Var: x;
+								x = foo(y);
+								If x > 10 Then
+									Var: y;
+									y = 1.5;
+									y = foo(x);
+								EndIf.
+							EndIf.
+						Else
+							print(string_of_int(x));
+						EndIf.
+					EndBody.
+
+					Function: foo
+					Parameter: x
+					Body:
+					EndBody.

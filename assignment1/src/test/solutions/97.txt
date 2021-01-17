@@ -1,0 +1,1 @@
+class,parent,:,parentAttr,=,100,def,parentMethod,(,self,),:,print,Calling parent method,def,setAttr,(,self,,,attr,),:,parent,.,parentAttr,=,attr,def,getAttr,(,self,),:,print,Parent attribute :,,,parent,.,parentAttr,class,child,(,parent,),:,def,childMethod,(,self,),:,print,Calling child method,c,=,Error Token C

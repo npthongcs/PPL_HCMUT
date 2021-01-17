@@ -1,0 +1,22 @@
+
+Var: n;
+Function: main
+Body:
+    Var: m,a,c,b;
+    n = read();
+    a = bool_of_string(n);
+    If a Then
+        Var: max=0,i,j;
+        j = read();
+        i = int_of_string(j);
+        If i>max Then
+            i = i+1;
+            printStr(string_of_int(i));
+            printLn();
+        Else
+            printStrLn("invalid i, please enter again");
+        EndIf.
+    Else Return "error, please check carefully again!";
+    EndIf.
+    Return ;
+EndBody.

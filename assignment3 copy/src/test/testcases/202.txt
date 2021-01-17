@@ -1,0 +1,2 @@
+
+Var: a[10][10],b,c=1,d="hello world",b[10];

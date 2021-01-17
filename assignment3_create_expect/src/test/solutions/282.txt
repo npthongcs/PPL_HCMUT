@@ -1,0 +1,1 @@
+str(TypeMismatchInExpression(CallExpr(Id(foo),[Id(x)])))

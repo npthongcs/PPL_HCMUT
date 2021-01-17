@@ -1,0 +1,11 @@
+
+Function: main
+					Body:
+					Var: x, y, z;
+					If bool_of_string(x) && bool_of_string(y) Then
+						z = bool_of_string("True");
+						z = True && (!bool_of_string("False"));
+						Return bool_of_string(x);
+					EndIf.
+						bool_of_string("1");
+					EndBody.

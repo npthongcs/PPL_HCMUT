@@ -1,0 +1,15 @@
+
+Function: main
+    Body:
+          While (n<10) && (m>0) && (check!=False) Do 
+            write(n);
+            m = 1.2 +. n \. i *. a[b[1][3]];
+            If m*n!=0 Then
+                m =n+m;
+                n = random(m,n);
+            Else m = k; n= p;
+            EndIf.
+            n = n-1;
+        EndWhile.
+    EndBody.
+        

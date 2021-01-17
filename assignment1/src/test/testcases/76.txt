@@ -1,0 +1,6 @@
+** this is comment **
+** 
+skip
+**
+string = "assignment is very difficult\n but I never give up"
+win = 10 +.1 \. (sum(m,n)*.2) -.lose\.f  

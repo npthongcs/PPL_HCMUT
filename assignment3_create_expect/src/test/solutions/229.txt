@@ -1,0 +1,1 @@
+str(TypeMismatchInExpression(BinaryOp(+,CallExpr(Id(foo),[Id(a)]),CallExpr(Id(foo1),[]))))

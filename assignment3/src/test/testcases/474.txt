@@ -1,0 +1,31 @@
+
+Function: main
+Body:
+    Var: x = 1;
+    x = foo1({1,2,3});
+    foo(foo1(foo2()));
+EndBody.
+
+Function: foo1
+Parameter: x[3]
+Body:
+    Var: i,arr[3],max;
+    max = -999;
+    For (i = 0, i < 3, 1) Do
+        arr[i] = x[i] * i;
+        If max < arr[i] Then
+            max = arr[i];
+        EndIf.
+    EndFor.
+    Return max;
+EndBody.
+
+Function: foo2
+Body:
+    Return int_of_string(read());
+EndBody.
+
+Function: foo
+Parameter: x
+Body:
+EndBody.

@@ -1,0 +1,17 @@
+
+Function: foo
+Parameter: x
+Body:
+    If x==0 Then
+        Return 1;
+    Else Return x * foo(x-1);
+    EndIf.
+EndBody.
+
+Function: main
+Body:
+    Var: a,b;
+    a= read();
+    print(string_of_int(foo(a)));
+    Return;
+EndBody.

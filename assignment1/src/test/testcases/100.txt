@@ -1,0 +1,15 @@
+** nbcsdch **
+1+2+3+4;
+b[i+3+4] = 10 ;
+a[1-d-f] = 10 ;
+a[1-d-f] = 10 ;
+Function: foo
+Parameter: a,c,a[5][6]
+Body: 
+    Var: i=0,a[i*i];
+    while i<5 Do
+        i = i + 1;
+        a[i][i+2]=i*i;
+    EndWhile.
+    Return 0;
+EndBody. 

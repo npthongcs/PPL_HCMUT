@@ -1,0 +1,1 @@
+str(TypeMismatchInExpression(CallExpr(Id(foo),[FloatLiteral(0.0)])))

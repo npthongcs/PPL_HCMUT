@@ -1,0 +1,7 @@
+
+Function: foo
+    Body:
+        Do 
+        While (a>b) && (b<foo[j]) EndDo.
+    EndBody.
+        

@@ -1,0 +1,14 @@
+
+Var: a,b,c=10,d[3]={1,2,3};
+Function: foo
+Parameter: i,j,m,n
+    Body:
+        If n>1000 Then 
+            If i>0 Then 
+                If j<10 Then
+                    a[i][j]=n*i*j;
+        Else n=0;    
+        EndIf.
+        EndIf.
+    EndBody.
+        

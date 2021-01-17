@@ -1,0 +1,1 @@
+function,var,declare,init_array,<EOF>

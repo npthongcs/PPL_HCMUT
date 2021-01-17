@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(Assign(ArrayCell(Id(arr),[IntLiteral(1)]),ArrayCell(Id(idx),[IntLiteral(3)]))))

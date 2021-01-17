@@ -1,0 +1,19 @@
+
+Function: main
+					Body:
+					Var: x, y;
+					x = int_of_string(read());
+					If (x > -3) && (x < 0) Then
+						Var: y;
+						y = x * (-30);
+						Return y;
+					ElseIf (x >= 0) && (x <= 3) Then
+						Var: y;
+						y = float_to_int(x) *. 3.0;
+						Return y;
+					Else
+						Var: y;
+						y = bool_of_string("True") && y;
+					EndIf.
+					Return y + 1;
+					EndBody.

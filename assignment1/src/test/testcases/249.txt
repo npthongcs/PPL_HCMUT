@@ -1,0 +1,9 @@
+
+Function: main
+    Body:
+          While n<10 Do 
+            write(n);
+            n = n-1;
+        EndWhile.
+    EndBody.
+        

@@ -1,0 +1,11 @@
+
+Var: foo,a[10];
+Function: main
+Body:
+EndBody.
+Function: sum
+Body:
+EndBody.
+Function: foo
+Body:
+EndBody.

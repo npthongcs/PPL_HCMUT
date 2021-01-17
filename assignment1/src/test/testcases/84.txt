@@ -1,0 +1,7 @@
+import run_
+
+object demo {
+   def main(args: array[string]) {
+      4 times println("hello")
+   }
+}

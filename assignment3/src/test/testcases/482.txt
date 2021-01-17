@@ -1,0 +1,14 @@
+
+                    Function: double
+					Parameter: x
+					Body:
+						Return 2.0 *. x;
+					EndBody.
+
+					Function: main
+					Body:
+						Var: n;
+						n = int_of_string(read());
+						print("n * 8 = ");
+						printStrLn(string_of_float(double(double(double(n)))));
+					EndBody.

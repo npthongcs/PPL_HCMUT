@@ -1,0 +1,34 @@
+class Point(val xc: int, val yc: int) {
+   var x: int = xc
+   var y: int = yc
+   
+   def move(dx: int, dy: int) {
+      x = x + dx
+      y = y + dy
+      println ("Point x location : " + x);
+      println ("Point y location : " + y);
+   }
+}
+
+class location(override val xc: int, override val yc: int,
+   val zc :int) extends point(xc, yc){
+   var z: int = zc
+
+   def move(dx: int, dy: int, dz: int) {
+      x = x + dx
+      y = y + dy
+      z = z + dz
+      println ("Point x location : " + x);
+      println ("Point y location : " + y);
+      println ("Point z location : " + z);
+   }
+}
+
+object demo {
+   def main(args: array[string]) {
+      val loc = new location(10, 20, 15);
+
+      ** Move to a new location **
+      loc.move(10, 10, 5);
+   }
+} 

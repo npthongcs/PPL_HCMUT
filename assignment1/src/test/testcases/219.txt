@@ -1,0 +1,12 @@
+
+Function: foo
+    Parameter: a,b,c[10],d[100][100]
+    Body:
+        Var: a[10];
+        Var: a,b,c,d=6,f=10,g=0xABCD;
+        Var: a[10][11]={{1,2,3},{1,2,3}};
+        Var: a=100, c= 12.10e10;
+        Var: a[10][10][10][10][10][10][10][10][10][10][10][10];
+        Var: a=True, b=False, c="this is declare varibale";
+    EndBody.
+        

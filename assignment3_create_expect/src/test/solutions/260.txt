@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(While(Id(test),[],[CallStmt(Id(print),[CallExpr(Id(string_of_bool),[CallExpr(Id(main),[])])])])))

@@ -1,0 +1,8 @@
+
+Function: foo
+    Body:
+        Return foo (2 + x, 4. \. y);
+        Return goo (foo (2 + x, 4. \. y));
+        Return func(func()-.goo (foo (2 + x, 4. \. y)) % foo(foo(f-g+.4.),func()-.goo (foo (2 + x, 4. \. y))));
+    EndBody.
+        

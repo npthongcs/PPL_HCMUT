@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(Return(CallExpr(Id(int_of_string),[CallExpr(Id(read),[])]))))

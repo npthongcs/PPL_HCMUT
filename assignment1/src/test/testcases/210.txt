@@ -1,0 +1,1 @@
+Var: a[10]={True,False,True}, check[23]={"abc",0x123,0X123,0o12,0O12,True,False,12.0e-100000,1000}; 

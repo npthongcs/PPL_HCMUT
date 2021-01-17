@@ -1,0 +1,8 @@
+
+Function: foo
+    Body:
+        check = a+c-f\2*foo(f) - a[foo(3)+f-foo(9)]-ab[func(a-b-b)];
+        test = (check>=food) || (check != 0) || (d>=.f) || (w<=.s) || (a=/=v);
+        a[3 + foo(2)] = a[b[2][3]] + 4;
+    EndBody.
+        

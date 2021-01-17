@@ -1,0 +1,12 @@
+
+Function: foo
+Body:
+    Return;
+EndBody.
+
+Function: main
+Body:
+    If foo() Then
+        print("Error VoidType!");
+    EndIf.
+EndBody.

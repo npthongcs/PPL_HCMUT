@@ -1,0 +1,8 @@
+
+Function: foo
+Parameter: i,j,m,n
+    Body:
+        Do a=i+1;
+        While a<10 EndDo.
+    EndBody.
+        

@@ -1,0 +1,4 @@
+"This would create first object of Employee class"
+emp1 = Employee("Zara", 2000)
+"This would create second object of Employee class"
+emp2 = employee("Manni", 5000)

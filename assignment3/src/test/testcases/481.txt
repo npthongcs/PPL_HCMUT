@@ -1,0 +1,37 @@
+
+                    Function: main
+					Body:
+					Var: i, arr[10], newarr[10];
+					For (i = 0, i < 10, 1) Do
+						If arr[i] < 0 Then
+							Var: x, j;
+							x = arr[i];
+							For (j = 0, j < 10, 1) Do
+								newarr[j] = arr[i];
+								newarr[j] = foo(x);
+							EndFor.
+							Return newarr;
+						Else
+							Var: x;
+							print("Read number: x = ");
+							x = read();
+							Return notfoo(x);
+						EndIf.
+					EndFor.
+					EndBody.
+
+					Function: foo
+					Parameter: x
+					Body:
+						Return x + 20;
+					EndBody.
+
+					Function: notfoo
+					Parameter: x
+					Body:
+						Var: i, newarr[10];
+						For (i = 0, i < 10, 1) Do
+							newarr[10] = foo(x);
+						EndFor.
+						Return newarr;
+					EndBody.

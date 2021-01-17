@@ -1,0 +1,1 @@
+str(TypeMismatchInStatement(Dowhile([],[Assign(Id(test),IntLiteral(1)),CallStmt(Id(print),[CallExpr(Id(string_of_bool),[CallExpr(Id(main),[])])])],Id(test))))

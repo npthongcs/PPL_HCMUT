@@ -1,0 +1,1 @@
+Var: s="this is assignment 1 ppl", p[10]={1,2,3} 

@@ -1,0 +1,103 @@
+
+Var: a,b,c=10,d=12.e-10,f[10][10]={1,2,3,4},g[0x10][0o10]={{1,2,3},{0x12,0XABC,0X12AF},{0o12,0O7,0o1}};
+
+Function: foo1
+Parameter: i,j
+    Body: 
+        Var: m=0,n=0x12;
+        While (True) || (i>=1) && (j<=m*n) Do
+            If (i*j =/= m*n%i*j) Then
+                i = foo2(foo1(1)\.foo3(a[i]-foo4()));
+                Break;
+            Else Continue; 
+            EndIf.       
+        EndWhile.
+    EndBody.
+    
+Function: foo2
+Parameter: i,j,k,m,n,check
+    Body: 
+        Var: a={1,2,3}, b="function", f=0x123, f[3]={"abc","def","xyz"};
+        
+    EndBody.
+    
+Function: foo3
+    Body: 
+        Var: check = True;
+        For (i=foo1(-foo(2)),i!=foo6(-foo7(7)+foo4(4)),foo5(foo1 (2 + x, 4. \. y))) Do
+            While (check!=False) && (i*-foo1(a[i])) Do
+                If (!check) Then Break; EndIf.            
+            EndWhile.
+            a[i][j]=1.0e10 +. -19.e-10 \. -foo1(-foo2(-foo3(-foo4(-foo5(-foo6))))) -. foo7(foo7()-.foo2 (foo2 (2 + x, 4. \. y)) % foo5(foo4(f-g+.4.),func()-.goo (foo (2 + x, 4. \. y))));
+            string = "Assignment PPL is very difficult";
+            recursive(1.2 +. n \. i *. a[b[1][3]],func(func()-.goo (foo (2 + x, 4. \. y)) % foo(foo(f-g+.4.),func()-.goo (foo (2 + x, 4. \. y)))),a[foo(i)-f] +. 2. -. 2.109e-109
+                    \.foo(n%i-a[foo(i\4)]));
+            check = (test && True) || (!boolean) && (a<=.b+.1.);
+        EndFor.
+    EndBody.
+    
+Function: foo4
+Parameter: array[10][10][10][10][10][10][10][10][10][10][10][10]
+    Body: 
+        If i>=0 Then Break;
+        Else Return foo4(i) * foo4(i+1);
+        EndIf.
+    EndBody.
+    
+Function: foo5
+    Body: 
+        Var: i,j,k,m,n,a[10][10];
+        For (i=1,i<n,2) Do
+            foo1(foo2(foo3(foo4(foo5(foo6(foo7))))));
+            For (j=foo(3),j<=n,1) Do
+            If (a[i]>a[j]) Then
+                temp = a[j];
+                a[j]=a[i];
+                a[i]=temp;
+            EndIf.
+        EndFor.
+        EndFor.
+        For (i=0,i<n,1) Do
+            writeln(a[i]);
+            foo(a[i]);
+        EndFor.  
+    EndBody.
+    
+Function: foo6
+    Body: 
+        Var: i,j,k,m,n,a[10][10];
+        For (i=1,i<n,1) Do
+            For (j=i+1,j<=n,1) Do
+            If (a[i]>a[j]) Then
+                temp = a[j];
+                a[j]=a[i];
+                Break;
+                a[i]=temp;
+            EndIf.
+        EndFor.
+            Break;
+        EndFor. 
+    EndBody.
+    
+Function: foo7
+    Body: 
+        Do 
+           If foo(g)-foo(j)>0 Then 
+            Var: i,k,m;
+            k=foo(g)*foo(j);
+            i=k%m;
+            m=foo(a[i]);
+           EndIf. 
+        While (a>b) && (b<foo[j]) EndDo.
+        Return foo(-b)-foo(i)-foo(h);
+    EndBody.
+    
+Function: main
+    Body: 
+        ** ** ** ** ** ** ** ** ** **
+        **   ke ke ke ke ke ke ke  **
+        **          nothing        **
+        **           (^_^)         **
+        ** ** ** ** ** ** ** ** ** **
+    EndBody.
+        

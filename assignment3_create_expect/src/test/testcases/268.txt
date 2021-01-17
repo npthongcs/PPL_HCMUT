@@ -1,0 +1,14 @@
+
+Function: foo
+    Body:
+        Var: r = 10., v, a,b;
+        b= float_to_int(a);
+        v = (4. \. 3.) *. 3.14 *. r *. r *. r;
+        Return v;
+    EndBody.
+
+Function: main
+Body:
+    foo();
+    Return ;
+EndBody.

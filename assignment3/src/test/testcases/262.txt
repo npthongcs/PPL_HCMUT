@@ -1,0 +1,10 @@
+
+Function: main
+Body:
+    Var: test;
+    Do
+        print(string_of_bool(main()));
+    While test
+    EndDo.
+    Return "hello";
+EndBody.

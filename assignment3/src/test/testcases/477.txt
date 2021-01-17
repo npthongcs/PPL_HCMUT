@@ -1,0 +1,17 @@
+
+                    Function: main
+					Body:
+						Var: x;
+						x = 1 - foo(foo(foo(foo(x))));
+					EndBody.
+
+					Function: foo
+					Parameter: x
+					Body:
+						Var: arr[5];
+						Var: i;
+						For (i = 0, i < 5, 1) Do
+							arr[i] = x * i;
+						EndFor.
+						Return arr;
+					EndBody.

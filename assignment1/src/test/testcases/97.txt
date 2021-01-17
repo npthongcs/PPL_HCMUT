@@ -1,0 +1,22 @@
+class parent:        **define parent class**
+   parentAttr = 100
+
+   def parentMethod(self):
+      print "Calling parent method"
+
+   def setAttr(self, attr):
+      parent.parentAttr = attr
+
+   def getAttr(self):
+      print "Parent attribute :", parent.parentAttr
+
+class child(parent): ** define child class **
+
+   def childMethod(self):
+      print "Calling child method"
+
+c = Child()          ** instance of child**
+c.childMethod()      **child calls its method**
+c.parentMethod()     **calls parent's method**
+c.setAttr(200)       **again call parent's method**
+c.getAttr()          **again call parent's method**

@@ -1,0 +1,27 @@
+
+Function: fOO_123
+Parameter:i
+    Body:
+        Return n * foo(n-1);
+    EndBody.
+        
+Function: main
+    Parameter: i,j,temp
+    Body:
+        Var: i,j,k,m,n,a[10][10];
+        For (i=1,i<n,2) Do
+            recursive(1.2);
+            For (j=foo(3),j<=n,1) Do
+            If (a[i]>a[j]) Then
+                temp = a[j];
+                a[j]=a[i];
+                a[i]=temp;
+            EndIf.
+        EndFor.
+        EndFor.
+        For (i=0,i<n,1) Do
+            writeln(a[i]);
+            foo(a[i]);
+        EndFor.    
+    EndBody.
+        

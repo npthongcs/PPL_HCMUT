@@ -1,0 +1,1 @@
+str(TypeCannotBeInferred(Assign(Id(u),CallExpr(Id(foo),[Id(f),CallExpr(Id(foo),[BooleanLiteral(true),BooleanLiteral(false)])]))))

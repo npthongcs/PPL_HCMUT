@@ -1,0 +1,32 @@
+
+Var: a,b=10,c=1.2,d[3][3],e[2]={1.0,2.0},g,f=False,u,v;
+Function: foo1
+Parameter: i1,i2,i3,i4,i5
+Body:
+EndBody.
+
+Function: foo2
+Body:
+    Var: a[2]={1.2,10.};
+    Return a;
+EndBody.
+
+Function: main
+Parameter: c,b
+Body:
+    If True Then
+        Var: c=1,a=1.2,b=True,f[2][2]={{1,2},{1,2}};
+        foo1(c,e[2],foo2()[2],foo(foo2()),f[1][2]);
+        If a>.float_to_int(c) Then
+            Var: c,a;
+            foo1(c,False,foo2()[2],foo(foo2()),f[1][2]);
+        EndIf.
+        Return c;
+    EndIf.
+    Return b;
+EndBody.
+
+Function: foo
+Parameter: i
+Body:
+EndBody.

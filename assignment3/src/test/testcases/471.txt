@@ -1,0 +1,15 @@
+
+Function: foo
+Parameter: x
+Body:
+    Return;
+EndBody.
+
+Function: main
+Body:
+    Var: arr[10];
+    Var: i;
+    For (i = 0, i < 10, 2) Do
+        arr[i] = foo(i);
+    EndFor.
+EndBody.
